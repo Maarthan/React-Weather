@@ -4,7 +4,7 @@ const WeatherInfo = ({ cityName }) => {
   // Base url to connect to the open weather map website and its api
   // cityName is a variable and is passed as a prop from parent component i.e., App.js
   // Note: paste the API key from open weather map website after login
-  const API_KEY = "6d042fbd6ad58f89f60a767916546774";
+  const API_KEY = "";
   let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${API_KEY}`;
   // Weather info from the api
   const [weather, setWeather] = useState(null);
